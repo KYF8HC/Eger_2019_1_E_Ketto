@@ -17,3 +17,13 @@ C:\Users\user\Desktop\Eger_2019_1_E_Ketto-master\Calculator\Calculator\Calculato
 C:\Users\user\Desktop\Eger_2019_1_E_Ketto-master\Calculator\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
 C:\Users\user\Desktop\Eger_2019_1_E_Ketto-master\Calculator\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
 C:\Users\user\Desktop\Eger_2019_1_E_Ketto-master\Calculator\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.Cache
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\icony\OneDrive\Dokumentumok\GitHub\Eger_2019_1_E_Ketto\Sources\Calculator\Calculator\obj\Debug\Calculator.pdb
