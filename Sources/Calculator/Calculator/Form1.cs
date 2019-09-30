@@ -90,6 +90,8 @@ namespace Calculator
             btnDev.Enabled = true;
             btnLog.Enabled = true;
             Log10.Enabled = true;
+            btnX3.Enabled = true;
+            btn1x.Enabled = true;
         }
 
         private void btnOFF_Click(object sender, EventArgs e)
@@ -129,6 +131,8 @@ namespace Calculator
             btnDev.Enabled = false;
             btnLog.Enabled = false;
             Log10.Enabled = false;
+            btnX3.Enabled = false;
+            btn1x.Enabled = false;
 
         }
 
@@ -256,31 +260,29 @@ namespace Calculator
 
         private void btnSin_Click(object sender, EventArgs e)
         {
-            if (double.Parse(tbDisplay.Text) <= 90)
-            {
-                Szam = Math.PI * double.Parse(tbDisplay.Text) / 180;
-            }
-            //else if (double.Parse(tbDisplay.Text) <= 180)
+            //if (double.Parse(tbDisplay.Text) <= 90)
             //{
-            //    Szam = Math.PI * (double.Parse(tbDisplay.Text) - 90) / 180;
-
+            //    Szam = Math.PI * double.Parse(tbDisplay.Text) / 180;
             //}
-            else if (double.Parse(tbDisplay.Text) <= 270)
-            {
-                Szam = Math.PI * (double.Parse(tbDisplay.Text) - 180) / 180;
-                Szam = Szam * -1;
-            }
-            Megoldas = Math.Sin(Szam);
-            tbDisplay.Text = Megoldas.ToString();
+            ////else if (double.Parse(tbDisplay.Text) <= 180)
+            ////{
+            ////    Szam = Math.PI * (double.Parse(tbDisplay.Text) - 90) / 180;
+
+            ////}
+            //else if (double.Parse(tbDisplay.Text) <= 270)
+            //{
+            //    Szam = Math.PI * (double.Parse(tbDisplay.Text) - 180) / 180;
+            //    Szam = Szam * -1;
+            //}
+            //Megoldas = Math.Sin(Szam);
+            //tbDisplay.Text = Megoldas.ToString();
+            tbDisplay.Text = Convert.ToString(System.Math.Sin((Convert.ToDouble(System.Math.PI) / 180) * (Convert.ToDouble(tbDisplay.Text))));
 
         }
 
         private void BtnCos_Click(object sender, EventArgs e)
         {
-            //if(double.Parse(tbDisplay.Text) <= 90 )
-            //{
-            //    Szam = 
-            //}
+            tbDisplay.Text = Convert.ToString(System.Math.Cos((Convert.ToDouble(System.Math.PI) / 180) * (Convert.ToDouble(tbDisplay.Text))));
         }
 
         private void BtnPi_Click(object sender, EventArgs e)
@@ -326,6 +328,21 @@ namespace Calculator
         private void Btn1x_Click(object sender, EventArgs e)
         {
             tbDisplay.Text = Convert.ToString(Convert.ToDouble(1.0 / Convert.ToDouble(tbDisplay.Text)));
+        }
+
+        private void BtnFact_Click(object sender, EventArgs e)
+        {
+            int x1 = 1;
+            for (int i = 1; i <= Convert.ToInt16(tbDisplay.Text); i++)
+            {
+                x1 = x1 * i;
+            }
+            tbDisplay.Text = Convert.ToString(x1);
+        }
+
+        private void BtnTan_Click(object sender, EventArgs e)
+        {
+            tbDisplay.Text = Convert.ToString(System.Math.Tan((Convert.ToDouble(System.Math.PI) / 180) * (Convert.ToDouble(tbDisplay.Text))));
         }
 
         private void Muveletek()

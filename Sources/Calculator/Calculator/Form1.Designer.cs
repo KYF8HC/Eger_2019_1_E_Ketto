@@ -68,7 +68,7 @@
             this.button13 = new System.Windows.Forms.Button();
             this.btn1x = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.btnFact = new System.Windows.Forms.Button();
             this.btnTan = new System.Windows.Forms.Button();
             this.btnX3 = new System.Windows.Forms.Button();
             this.Log10 = new System.Windows.Forms.Button();
@@ -544,16 +544,17 @@
             this.button15.Text = "Pow";
             this.button15.UseVisualStyleBackColor = true;
             // 
-            // button16
+            // btnFact
             // 
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button16.Location = new System.Drawing.Point(254, 177);
-            this.button16.Margin = new System.Windows.Forms.Padding(5);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(50, 30);
-            this.button16.TabIndex = 42;
-            this.button16.Text = "Sqrt";
-            this.button16.UseVisualStyleBackColor = true;
+            this.btnFact.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFact.Location = new System.Drawing.Point(254, 177);
+            this.btnFact.Margin = new System.Windows.Forms.Padding(5);
+            this.btnFact.Name = "btnFact";
+            this.btnFact.Size = new System.Drawing.Size(50, 30);
+            this.btnFact.TabIndex = 42;
+            this.btnFact.Text = "x!";
+            this.btnFact.UseVisualStyleBackColor = true;
+            this.btnFact.Click += new System.EventHandler(this.BtnFact_Click);
             // 
             // btnTan
             // 
@@ -565,6 +566,7 @@
             this.btnTan.TabIndex = 41;
             this.btnTan.Text = "Tan";
             this.btnTan.UseVisualStyleBackColor = true;
+            this.btnTan.Click += new System.EventHandler(this.BtnTan_Click);
             // 
             // btnX3
             // 
@@ -597,7 +599,7 @@
             this.ClientSize = new System.Drawing.Size(384, 511);
             this.Controls.Add(this.btn1x);
             this.Controls.Add(this.button15);
-            this.Controls.Add(this.button16);
+            this.Controls.Add(this.btnFact);
             this.Controls.Add(this.btnTan);
             this.Controls.Add(this.btnX3);
             this.Controls.Add(this.Log10);
@@ -689,7 +691,7 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button btn1x;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button btnFact;
         private System.Windows.Forms.Button btnTan;
         private System.Windows.Forms.Button btnX3;
         private System.Windows.Forms.Button Log10;
