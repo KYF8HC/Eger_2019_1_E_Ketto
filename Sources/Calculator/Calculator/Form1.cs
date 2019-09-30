@@ -15,6 +15,40 @@ namespace Calculator
         public Form1()
         {
             InitializeComponent();
+            tbDisplay.Enabled = false;
+            btnON.Show();
+            btnOFF.Hide();
+            btn1.Enabled = false;
+            btn2.Enabled = false;
+            btn3.Enabled = false;
+            btn4.Enabled = false;
+            btn5.Enabled = false;
+            btn6.Enabled = false;
+            btn7.Enabled = false;
+            btn8.Enabled = false;
+            btn9.Enabled = false;
+            btn10.Enabled = false;
+            btn11.Enabled = false;
+            btn12.Enabled = false;
+            btn13.Enabled = false;
+            btn14.Enabled = false;
+            btn15.Enabled = false;
+            btn15.Enabled = false;
+            btn16.Enabled = false;
+            btn17.Enabled = false;
+            btn18.Enabled = false;
+            btnSqrt.Enabled = false;
+            btnPow.Enabled = false;
+            btnSin.Enabled = false;
+            btnCos.Enabled = false;
+            btnTan.Enabled = false;
+            btnPi.Enabled = false;
+            btnPlusMinus.Enabled = false;
+            button2.Enabled = false;
+            button3.Enabled = false;
+            btnDev.Enabled = false;
+            btnLog.Enabled = false;
+            Log10.Enabled = false;
         }
 
         double Szam, Megoldas;
