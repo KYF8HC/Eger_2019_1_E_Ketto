@@ -329,7 +329,7 @@
             // lblSzam
             // 
             this.lblSzam.AutoSize = true;
-            this.lblSzam.Location = new System.Drawing.Point(371, 12);
+            this.lblSzam.Location = new System.Drawing.Point(30, 96);
             this.lblSzam.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSzam.Name = "lblSzam";
             this.lblSzam.Size = new System.Drawing.Size(0, 13);
@@ -463,7 +463,6 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(50, 30);
             this.button8.TabIndex = 38;
-            this.button8.Text = "Sin";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button9
@@ -474,7 +473,6 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(50, 30);
             this.button9.TabIndex = 37;
-            this.button9.Text = "Pow";
             this.button9.UseVisualStyleBackColor = true;
             // 
             // button10
@@ -485,7 +483,6 @@
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(50, 30);
             this.button10.TabIndex = 36;
-            this.button10.Text = "Sqrt";
             this.button10.UseVisualStyleBackColor = true;
             // 
             // button11
@@ -496,7 +493,6 @@
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(50, 30);
             this.button11.TabIndex = 35;
-            this.button11.Text = "Sin";
             this.button11.UseVisualStyleBackColor = true;
             // 
             // button12
@@ -507,7 +503,6 @@
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(50, 30);
             this.button12.TabIndex = 34;
-            this.button12.Text = "Pow";
             this.button12.UseVisualStyleBackColor = true;
             // 
             // button13
@@ -518,7 +513,6 @@
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(50, 30);
             this.button13.TabIndex = 33;
-            this.button13.Text = "Sqrt";
             this.button13.UseVisualStyleBackColor = true;
             // 
             // btn1x
@@ -541,7 +535,6 @@
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(50, 30);
             this.button15.TabIndex = 43;
-            this.button15.Text = "Pow";
             this.button15.UseVisualStyleBackColor = true;
             // 
             // btnFact

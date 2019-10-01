@@ -16,39 +16,6 @@ namespace Calculator
         {
             InitializeComponent();
             tbDisplay.Enabled = false;
-            btnON.Show();
-            btnOFF.Hide();
-            btn1.Enabled = false;
-            btn2.Enabled = false;
-            btn3.Enabled = false;
-            btn4.Enabled = false;
-            btn5.Enabled = false;
-            btn6.Enabled = false;
-            btn7.Enabled = false;
-            btn8.Enabled = false;
-            btn9.Enabled = false;
-            btn10.Enabled = false;
-            btn11.Enabled = false;
-            btn12.Enabled = false;
-            btn13.Enabled = false;
-            btn14.Enabled = false;
-            btn15.Enabled = false;
-            btn15.Enabled = false;
-            btn16.Enabled = false;
-            btn17.Enabled = false;
-            btn18.Enabled = false;
-            btnSqrt.Enabled = false;
-            btnPow.Enabled = false;
-            btnSin.Enabled = false;
-            btnCos.Enabled = false;
-            btnTan.Enabled = false;
-            btnPi.Enabled = false;
-            btnPlusMinus.Enabled = false;
-            button2.Enabled = false;
-            button3.Enabled = false;
-            btnDev.Enabled = false;
-            btnLog.Enabled = false;
-            Log10.Enabled = false;
         }
 
         double Szam, Megoldas;
@@ -57,166 +24,115 @@ namespace Calculator
         private void btnON_Click(object sender, EventArgs e)
         {
             tbDisplay.Enabled = true;
-            btnON.Hide();
-            btnOFF.Show();
-            btn1.Enabled = true;
-            btn2.Enabled = true;
-            btn3.Enabled = true;
-            btn4.Enabled = true;
-            btn5.Enabled = true;
-            btn6.Enabled = true;
-            btn7.Enabled = true;
-            btn8.Enabled = true;
-            btn9.Enabled = true;
-            btn10.Enabled = true;
-            btn11.Enabled = true;
-            btn12.Enabled = true;
-            btn13.Enabled = true;
-            btn14.Enabled = true;
-            btn15.Enabled = true;
-            btn15.Enabled = true;
-            btn16.Enabled = true;
-            btn17.Enabled = true;
-            btn18.Enabled = true;
-            btnSqrt.Enabled = true;
-            btnPow.Enabled = true;
-            btnSin.Enabled = true;
-            btnCos.Enabled = true;
-            btnTan.Enabled = true;
-            btnPi.Enabled = true;
-            btnPlusMinus.Enabled = true;
-            button2.Enabled = true;
-            button3.Enabled = true;
-            btnDev.Enabled = true;
-            btnLog.Enabled = true;
-            Log10.Enabled = true;
-            btnX3.Enabled = true;
-            btn1x.Enabled = true;
         }
 
         private void btnOFF_Click(object sender, EventArgs e)
         {
             tbDisplay.Clear();
             tbDisplay.Enabled = false;
-            btnON.Show();
-            btnOFF.Hide();
-            btn1.Enabled = false;
-            btn2.Enabled = false;
-            btn3.Enabled = false;
-            btn4.Enabled = false;
-            btn5.Enabled = false;
-            btn6.Enabled = false;
-            btn7.Enabled = false;
-            btn8.Enabled = false;
-            btn9.Enabled = false;
-            btn10.Enabled = false;
-            btn11.Enabled = false;
-            btn12.Enabled = false;
-            btn13.Enabled = false;
-            btn14.Enabled = false;
-            btn15.Enabled = false;
-            btn15.Enabled = false;
-            btn16.Enabled = false;
-            btn17.Enabled = false;
-            btn18.Enabled = false;
-            btnSqrt.Enabled = false;
-            btnPow.Enabled = false;
-            btnSin.Enabled = false;
-            btnCos.Enabled = false;
-            btnTan.Enabled = false;
-            btnPi.Enabled = false;
-            btnPlusMinus.Enabled = false;
-            button2.Enabled = false;
-            button3.Enabled = false;
-            btnDev.Enabled = false;
-            btnLog.Enabled = false;
-            Log10.Enabled = false;
-            btnX3.Enabled = false;
-            btn1x.Enabled = false;
-
         }
 
         private void btn12_Click(object sender, EventArgs e)
         {
+            if(tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + 1;
         }
 
         private void btn13_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + 2;
         }
 
         private void btn14_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + 3;
         }
 
         private void btn8_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + 4;
         }
 
         private void btn9_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + 5;
         }
 
         private void btn10_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + 6;
         }
 
         private void btn4_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + 7;
         }
 
         private void btn5_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + 8;
         }
 
         private void btn6_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + 9;
         }
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            Szam = double.Parse(tbDisplay.Text);
-            tbDisplay.Clear();
-            tbDisplay.Focus();
-            MuvSz = 1;
-            lblSzam.Text = Szam.ToString() + "+";
+            if (tbDisplay.Enabled == true)
+            {
+                Szam = double.Parse(tbDisplay.Text);
+                tbDisplay.Clear();
+                tbDisplay.Focus();
+                MuvSz = 1;
+                lblSzam.Text = Szam.ToString() + "+";
+            }
         }
 
         private void btn7_Click(object sender, EventArgs e)
         {
-            Szam = double.Parse(tbDisplay.Text);
-            tbDisplay.Clear();
-            tbDisplay.Focus();
-            MuvSz = 2;
-            lblSzam.Text = Szam.ToString() + "-";
+            if (tbDisplay.Enabled == true)
+            {
+                Szam = double.Parse(tbDisplay.Text);
+                tbDisplay.Clear();
+                tbDisplay.Focus();
+                MuvSz = 2;
+                lblSzam.Text = Szam.ToString() + "-";
+            }
         }
 
         private void btn11_Click(object sender, EventArgs e)
         {
-            Szam = double.Parse(tbDisplay.Text);
-            tbDisplay.Clear();
-            tbDisplay.Focus();
-            MuvSz = 3;
-            lblSzam.Text = Szam.ToString() + "*";
+            if (tbDisplay.Enabled == true)
+            {
+                Szam = double.Parse(tbDisplay.Text);
+                tbDisplay.Clear();
+                tbDisplay.Focus();
+                MuvSz = 3;
+                lblSzam.Text = Szam.ToString() + "*";
+            }
         }
 
         private void btn15_Click(object sender, EventArgs e)
         {
-            Szam = double.Parse(tbDisplay.Text);
-            tbDisplay.Clear();
-            tbDisplay.Focus();
-            MuvSz = 4;
-            lblSzam.Text = Szam.ToString() + "/";
+            if (tbDisplay.Enabled == true)
+            {
+                Szam = double.Parse(tbDisplay.Text);
+                tbDisplay.Clear();
+                tbDisplay.Focus();
+                MuvSz = 4;
+                lblSzam.Text = Szam.ToString() + "/";
+            }
         }
-
         private void btn18_Click(object sender, EventArgs e)
         {
             Muveletek();
@@ -246,16 +162,22 @@ namespace Calculator
 
         private void btnSqrt_Click(object sender, EventArgs e)
         {
-            Szam = double.Parse(tbDisplay.Text);
-            Megoldas = Math.Sqrt(Szam);
-            tbDisplay.Text = Megoldas.ToString();
+            if (tbDisplay.Enabled == true)
+            {
+                Szam = double.Parse(tbDisplay.Text);
+                Megoldas = Math.Sqrt(Szam);
+                tbDisplay.Text = Megoldas.ToString();
+            }
         }
 
         private void btnPow_Click(object sender, EventArgs e)
         {
-            Szam = double.Parse(tbDisplay.Text);
-            Megoldas = Math.Pow(Szam, 2);
-            tbDisplay.Text = Megoldas.ToString();
+            if (tbDisplay.Enabled == true)
+            {
+                Szam = double.Parse(tbDisplay.Text);
+                Megoldas = Math.Pow(Szam, 2);
+                tbDisplay.Text = Megoldas.ToString();
+            }
         }
 
         private void btnSin_Click(object sender, EventArgs e)
@@ -276,27 +198,32 @@ namespace Calculator
             //}
             //Megoldas = Math.Sin(Szam);
             //tbDisplay.Text = Megoldas.ToString();
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = Convert.ToString(System.Math.Sin((Convert.ToDouble(System.Math.PI) / 180) * (Convert.ToDouble(tbDisplay.Text))));
 
         }
 
         private void BtnCos_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = Convert.ToString(System.Math.Cos((Convert.ToDouble(System.Math.PI) / 180) * (Convert.ToDouble(tbDisplay.Text))));
         }
 
         private void BtnPi_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = tbDisplay.Text + Math.PI;  
         }
         
         private void Button2_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = "(";
         }
 
         private void Button3_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = ")";
         }
 
@@ -307,41 +234,50 @@ namespace Calculator
 
         private void BtnLog_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = Convert.ToString(System.Math.Log10(Convert.ToDouble(tbDisplay.Text)));
         }
 
         private void Log10_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = Convert.ToString(System.Math.Log(Convert.ToDouble(tbDisplay.Text)));
         }
 
         private void BtnPlusMinus_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = Convert.ToString(-Convert.ToInt32(tbDisplay.Text));
         }
 
         private void BtnX3_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = Convert.ToString(Convert.ToInt32(tbDisplay.Text) * Convert.ToInt32(tbDisplay.Text) * Convert.ToInt32(tbDisplay.Text));
         }
 
         private void Btn1x_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = Convert.ToString(Convert.ToDouble(1.0 / Convert.ToDouble(tbDisplay.Text)));
         }
 
         private void BtnFact_Click(object sender, EventArgs e)
         {
-            int x1 = 1;
-            for (int i = 1; i <= Convert.ToInt16(tbDisplay.Text); i++)
+            if (tbDisplay.Enabled == true)
             {
-                x1 = x1 * i;
+                int x1 = 1;
+                for (int i = 1; i <= Convert.ToInt16(tbDisplay.Text); i++)
+                {
+                    x1 = x1 * i;
+                }
+                tbDisplay.Text = Convert.ToString(x1);
             }
-            tbDisplay.Text = Convert.ToString(x1);
         }
 
         private void BtnTan_Click(object sender, EventArgs e)
         {
+            if (tbDisplay.Enabled == true)
             tbDisplay.Text = Convert.ToString(System.Math.Tan((Convert.ToDouble(System.Math.PI) / 180) * (Convert.ToDouble(tbDisplay.Text))));
         }
 
@@ -373,7 +309,5 @@ namespace Calculator
                     break;
             }
         }
-
-
     }
 }
