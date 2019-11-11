@@ -1,0 +1,42 @@
+1. Áttekintés
+Alap webshop, termékek és konkrétumok nélkül, hogy a jövõben bármilyen cég kitudja egészíteni a saját elképzelései szerint. Egy pizzázótól, bútorbolton keresztül az E-bay-ig bármi lehet belõle.
+
+2. Jelenlegi helyzet
+
+3. Vágyálom rendszer
+Egy teljesen mûködõ alap weboldalt létrehozni.
+
+4. Funkcionális követelmények
+
+5. Rendszerre vonatkozó szabványok
+PHP nyelven, MVC tervezési minta szerint. PDO adatbázis kapcsolattal egy MySQL adatbázishoz.
+Bootstrap és jQuery könyvtárak segítségével.
+
+6. Jelenlegi üzleti folyamatok modellje
+
+7. Igényelt üzleti folyamatok
+
+8. Követelmény lista
+	modul			név			Kifejtés
+	Felület			header			egységes fejrész minden oldalra
+	Felület			footer			egységes lábrész minden oldalra
+	Felület			nyitó oldal		minimális, nem fontos, login legyen
+	Felület			termékek oldal		szûrõ rész, sorbarendezés
+	Felület			több oldal		Több oldalon jelenítse meg a termékeket, ha sok van
+	Felület			megjelenítésé módja	Termék lista rács vagy lista szerkezetben
+	Modifikáció		keresõ			Termék keresõ
+	Felület			adott termék		Termék adatai részletezõ, kommentek, termék értékelés
+	Felület			adminisztrációs		Kategóriák, termék hozzáadása (csak adminnak)
+	Modifikáció		Regisztráció
+	Modifikáció		megerõsítõ email
+	Modifikáció		Login
+	Modifikáció		Kosár			Felhasználó álltal összegyûjtött termékek kezelése
+	Felület			Kosár			
+	Modifikáció		Adat modosítások	Felhasználó adatit tudja módosítani
+	Felület			Beállítások		
+	Modifikáció		email			email küldés sikeres vásárlásról
+	Felület			rólunk oldal		Cég helye... minimális
+	Felület			kapcsolat oldal		Elérhetõség, minimális			 	
+9. Riportok
+
+10. Fogalomtár
