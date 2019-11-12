@@ -1,7 +1,7 @@
 DROP DATABASE IF EXISTS `portfolio`;
 CREATE DATABASE `portfolio`;
 CREATE TABLE `user` (
-    `user_id` int AUTO_INCREMENT,
+    `id` int AUTO_INCREMENT,
     `name` VARCHAR(255),
     `password` VARCHAR(255),
     `phone_number` VARCHAR(255),
@@ -11,7 +11,7 @@ CREATE TABLE `user` (
     `pinterest_link` VARCHAR(255),
     `fb_link` VARCHAR(255),
     `inst_link` VARCHAR(255),
-    PRIMARY KEY (`user_id`)
+    PRIMARY KEY (`id`)
 );
 
 INSERT INTO `user` (`name`, `password`, `phone_number`, `city`, `email`,`behance_link`, `pinterest_link`, `fb_link`, `inst_link`) VALUES
@@ -19,11 +19,11 @@ INSERT INTO `user` (`name`, `password`, `phone_number`, `city`, `email`,`behance
 ;
 
 CREATE TABLE `category` (
-`id` int AUTO_INCREMENT,
-`name` VARCHAR(255),
-`user_id` int,
-    PRIMARY KEY (id),
-    FOREIGN KEY (user_id) REFERENCES user(user_id)
+    `id` int AUTO_INCREMENT,
+    `user_id` int,
+    `name` VARCHAR(255),
+    PRIMARY KEY (`id`),
+    FOREIGN KEY (`user_id`) REFERENCES `user`(`id`)
 );
 
 INSERT INTO `category`(`name`, `user_id`) VALUES
@@ -34,18 +34,18 @@ INSERT INTO `category`(`name`, `user_id`) VALUES
 ;
 
 CREATE TABLE `images`(
-`id` int AUTO_INCREMENT,
-`name` VARCHAR(255),
-`location` VARCHAR(255),
-`updated_at` DATE,
-`category` VARCHAR(255),
-`description` VARCHAR(255),
-`user_id` int,
-    PRIMARY KEY (id),
-    FOREIGN KEY (user_id) REFERENCES user(user_id)
+    `id` int AUTO_INCREMENT,
+    `user_id` int,
+    `category_id` int,
+    `name` VARCHAR(255),
+    `location` VARCHAR(255),
+    `updated_at` DATE,
+    `description` VARCHAR(255),
+    PRIMARY KEY (`id`),
+    FOREIGN KEY (`user_id`) REFERENCES `user`(`id`),
+    FOREIGN KEY (`category_id`) REFERENCES `category`(`id`)
 );
 
-INSERT INTO `images` (`name`, `location`, `updated_at`, 
-	`category`, `description`, `user_id`) VALUES
-    ('Színes erdő', 'ColorfulForest.jpg', SYSDATE(), 'Természet', 'Erdő', 1) 
+INSERT INTO `images` (`name`, `location`, `updated_at`, `description`, `user_id`, `category_id`) VALUES
+    ('Színes erdő', 'ColorfulForest.jpg', SYSDATE(), 'Erdő', 1, 1) 
 ;

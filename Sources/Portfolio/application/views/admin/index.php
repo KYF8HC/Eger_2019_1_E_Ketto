@@ -1,8 +1,10 @@
 <script>
+/*
 var password = prompt('Please enter admin password to view this page!', '');
 
 if (!(password == "asd"))
     window.location="<?=URL?>";
+*/
 </script>
 
 <div class="container">
@@ -13,3 +15,7 @@ if (!(password == "asd"))
         </form>
     </div>
 </div>
+
+<?php
+    var_dump($data);
+?>

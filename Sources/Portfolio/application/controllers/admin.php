@@ -11,6 +11,9 @@ class Admin extends Controller {
     }
 
     public function index() {
-        $this->load_view('admin/index');
+        $data['user'] = $this->model->get_user();
+        $data['imgs'] = $this->model->get_img();
+
+        $this->load_view('admin/index', $data);
     }
 }

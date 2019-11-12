@@ -24,8 +24,8 @@
     <nav>
         <ul>
             <li><a href="<?=URL?>gallery">Gallery</a></li>
-            <?php foreach ($menu as $value): ?>
-            <li><a href="<?=URL?>gallery/?category=<?=$value?>"><?=$value?></a></li>
+            <?php foreach ($data['category'] as $category): ?>
+            <li><a href="<?=URL?>gallery/<?=$category['id']?>"><?=$category['name']?></a></li>
             <?php endforeach; ?>
         </ul>
     </nav>

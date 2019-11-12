@@ -10,8 +10,8 @@ class Gallery extends Controller {
         $this->model = $this->load_model('gallery_model');
     }
 
-    public function index() {
-        $data = $this->model->get_img();
+    public function index($category_id = '') {
+        $data['img'] = $this->model->get_img($category_id);
 
         $this->load_view('gallery/index', $data);
     }

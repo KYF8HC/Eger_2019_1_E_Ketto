@@ -2,12 +2,16 @@
 
 class Model {
 
-    public function get_menu() {
-        return array('természet', 'ember', 'faszom');    
+    public function get_category() {
+        return $this->getList("SELECT * FROM `category`");
     }
 
-    public function get_img() {
-        return 'ez egy kép';
+    public function get_img($category_id = '') {
+
+        if (!empty($category_id))
+            return $this->getList("SELECT * FROM `images` WHERE `category_id`='".$category_id."'");
+        else
+            return $this->getList("SELECT * FROM `images`");
     }
 
     public function getConnection() {
