@@ -1,7 +1,7 @@
 <?php
 
 // URLs
-define('URL', 'http://localhost/portfolio/');
+define('URL', 'portfolio/');
 
 //define('PROTOCOL', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https' : 'http');
 //define('PROTOCOL', 'http');
