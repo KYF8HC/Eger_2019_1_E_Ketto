@@ -1,5 +1,5 @@
     <footer>
-        Copy
+        asd
     </footer>
     <!-- jQuery, Bootstrap, JavaScript -->
     <script src="<?=URL?>assets/vendor/jquery/jquery-3.4.1.min.js"></script>

@@ -14,19 +14,24 @@
 
 <header>
     <nav>
-        <ul>
-            <li><a href="<?=URL?>">Főoldal</a></li>
-            <li><a href="<?=URL?>services">Szolgáltatások</a></li>
-            <li><a href="<?=URL?>about">Rólunk</a></li>
-            <li><a href="<?=URL?>contact">Kapcsolat</a></li>
-        </ul>
-    </nav>
-    <nav>
-        <ul>
-            <li><a href="<?=URL?>gallery">Gallery</a></li>
-            <?php foreach ($data['category'] as $category): ?>
-            <li><a href="<?=URL?>gallery/<?=$category['id']?>"><?=$category['name']?></a></li>
-            <?php endforeach; ?>
-        </ul>
+        <div class="container">
+            <ul>
+                <li><a href="<?=URL?>">Főoldal</a></li>
+                <li><a href="<?=URL?>services">Szolgáltatások</a></li>
+                <li><a href="<?=URL?>about">Rólunk</a></li>
+                <li><a href="<?=URL?>contact">Kapcsolat</a></li>
+                <li><a href="<?=URL?>gallery">Gallery</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Categories</button>
+                        <div class="dropdown-content">
+                            <?php foreach ($data['category'] as $category): ?>
+                            <a href="<?=URL?>gallery/<?=$category['id']?>"><?=$category['name']?></a>
+                            <?php endforeach; ?>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </nav>
 </header>
