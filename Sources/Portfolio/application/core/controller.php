@@ -14,10 +14,17 @@ class Controller {
     public function load_view($view, $data = []) {
         $model = $this->load_model('admin_model');
 
-        $menu = $model->get_menu();
+        $data['category'] = $model->get_category();
         
         require_once 'application/views/template/header.php';
         require_once 'application/views/'.$view.'.php';
         require_once 'application/views/template/footer.php';
+    }
+    
+    public function redirect($url) {
+        ob_start();
+        header('Location: '.$url);
+        ob_end_flush();
+        die();
     }
 }
