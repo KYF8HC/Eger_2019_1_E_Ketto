@@ -1,4 +1,4 @@
-# Követelmény specifikáció
+# Követelmény specifikáció - Rendszerterv
 
 1. Áttekintés
 - Portfolóis weboldal egy tetováló művésznek/szalonnak. A tartalom, szövegek, képek egy admin menün keresztül szerkeszthető. A design nélkül implementálható más portfolió oldalakba.
@@ -48,3 +48,6 @@
 9. Riportok
 
 10. Fogalomtár
+
+11. Képernyő terv
+- Mintának vett design linkje: http://tattoosalon.ancorathemes.com/
