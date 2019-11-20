@@ -55,16 +55,16 @@
 ## Funkcionalitás terv
 
  KATEGÓRI 
-    - Kategorizálás : lehessen kategóriára szűrni valamint ABC sorrend alapján keresni.
-    - Tartalmak megjelnítéséhez két beálítást csatolni ikon megjelnítés vagy lista megjelenités.
-    - Egy oldalon több fájl megjelenítése alap beállitás pl:20 ,de ha szeretnék ezt a darab számot lehessen növelni pl50,100 db ra ,igy        csökkentve az oldalak számát és nővelve az 1 oldalon megjelnített fájlok számát.
+-     Kategorizálás : lehessen kategóriára szűrni valamint ABC sorrend alapján keresni.
+-     Tartalmak megjelnítéséhez két beálítást csatolni ikon megjelnítés vagy lista megjelenités.  
+-     Egy oldalon több fájl megjelenítése alap beállitás pl:20 ,de ha szeretnék ezt a darab számot lehessen növelni pl50,100 db ra ,igy        csökkentve az oldalak számát és nővelve az 1 oldalon megjelnített fájlok számát.
 
  KÉPEK
--    - Egy képre kattintva nagyítsa ki az oldal mint például a Facebook.
--    - A képeket lehessen értékelni csillag alapján és kommentet is lehessen hozzá fűzni ha valaki részletesebben szeretné értékelni.   -   - Ha a képet megnyitjuk nagy méretben akkor a kép jobb vagy bal oldalára kattintva tudjunk lapozni egy másik képre.
+-     Egy képre kattintva nagyítsa ki az oldal mint például a Facebook.
+-     A képeket lehessen értékelni csillag alapján és kommentet is lehessen hozzá fűzni ha valaki részletesebben szeretné értékelni.     -     Ha a képet megnyitjuk nagy méretben akkor a kép jobb vagy bal oldalára kattintva tudjunk lapozni egy másik képre.
   
   KEZELÉS
-    - Az oldal alsó szélében legyen egy nyíl amire ha rá kattintunk akkor, automatikus az  oldal tetejére ugrojon ,ne kelljen görgözni.
+-     Az oldal alsó szélében legyen egy nyíl amire ha rá kattintunk akkor, automatikus az  oldal tetejére ugrojon ,ne kelljen görgözni.
 
 
 ### Admin felület
