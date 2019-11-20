@@ -14,7 +14,9 @@ class Controller {
     public function load_view($view, $data = []) {
         $model = $this->load_model('admin_model');
 
+        $data['user'] = $model->get_user();
         $data['category'] = $model->get_category();
+        $data['text'] = $model->get_text();
         
         require_once 'application/views/template/header.php';
         require_once 'application/views/'.$view.'.php';
