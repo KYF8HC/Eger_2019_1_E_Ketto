@@ -62,7 +62,9 @@
 
  KÉPEK
 -     Egy képre kattintva nagyítsa ki az oldal mint például a Facebook.
--     A képeket lehessen értékelni csillag alapján és kommentet is lehessen hozzá fűzni ha valaki részletesebben szeretné értékelni.     -     Ha a képet megnyitjuk nagy méretben akkor a kép jobb vagy bal oldalára kattintva tudjunk lapozni egy másik képre.
+-     A képeket lehessen értékelni csillag alapján és kommentet is 
+      lehessen hozzá fűzni ha valaki részletesebben szeretné értékelni.     
+-     Ha a képet megnyitjuk nagy méretben akkor a kép jobb vagy bal oldalára kattintva tudjunk lapozni egy másik képre.
   
  KEZELÉS
 -     Az oldal alsó szélében legyen egy nyíl amire ha rá kattintunk akkor, 
