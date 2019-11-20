@@ -29,7 +29,7 @@
 
 |modul|név|kifejtés|
 |---|---|---|
-|Felület|általános|letsztult, egységes stílus, responsive|
+|Felület|általános|letisztult, egységes stílus, responsive|
 |Modifikáció|általános|az oldal tetejére gomb|
 |Felület|header|egységes fejrész minden oldalra|
 |Modifikáció|header|A kategóriák az változhatnak|
@@ -54,6 +54,16 @@
 
 ## Funkcionalitás terv
 
+KATEGÓRI 
+-Kategorizálás : lehessen kategóriára szűrni valamint ABC sorrend alapján keresni.
+-Tartalmak megjelnítéséhez két beálítást csatolni ikon megjelnítés vagy lista megjelenités.
+-Egy oldalon több fájl megjelenítése alap beállitás pl:20 ,de ha szeretnék ezt a darab számot lehessen növelni pl50,100 db ra ,igy csökkentve az oldalak számát és nővelve az 1 oldalon megjelnített fájlok számát.
+
+KÉPEK
+-egy képre kattintva nagyítsa ki az oldal mint például a Facebook.
+-a képeket lehessen értékelni csillag alapján és kommentet is lehessen hozzá fűzni ha valaki részletesebben szeretné értékelni.
+
+
 ### Admin felület
 
 1. Text settings
@@ -63,7 +73,7 @@
   - Az üresen hagyott inputok egyszerűen nem jelennek meg
   
 2. Contact settings
-  - Az elérhetőségeket lethet itt beállítani, milyen linkek jelenjenek meg a contact oldalon és a fotterbe
+  - Az elérhetőségeket lehet itt beállítani, milyen linkek jelenjenek meg a contact oldalon és a fotterbe
   - Ezek a linkek iconokkal fognak megjelenni és az adott közösségi oldal linkjére visz
   - Az üresen hagyott közösségi oldalak linkjei nem jelennek meg
   
