@@ -22,7 +22,7 @@ Célunk egy dinamikus weboldal létrehozása, egyszerű admin felülettel, így 
 - google fonts használatával.
 
 ## Jelenlegi üzleti folyamatok modellje
-- Egy telejesen dinamikus oldalt szeretnénk létrehozni, hogy a megrendelőnek ne kelljen minden apró módosítás miatt a fejlesztőnek szólni, esetlegesen ha nem éppen akkor nem ér rá, akkor ne kelljen várni a munkái publikálásával így, csak akkor keresse őt ha valami hiba van az oldalon. Mindent módosítani tudjon az admin felületen, ahová csak egyedi azonosítóval lehessen belépni, így egyedül a megrendelő tudja majd elérni. Moderálni tudja a képek alatt lévő kommenteket.
+- Egy telejesen dinamikus oldalt szeretnénk létrehozni, hogy a megrendelőnek ne kelljen minden apró módosítás miatt a fejlesztőnek szólni, esetlegesen ha nem éppen akkor nem ér rá, akkor ne kelljen várni a munkái publikálásával így, csak akkor keresse őt ha valami hiba van az oldalon. Mindent módosítani tudjon az admin felületen, ahová csak egyedi azonosítóval lehessen belépni, így egyedül a megrendelő tudja majd elérni.
 ## Igényelt üzleti folyamatok
 
 ## Követelmény lista
