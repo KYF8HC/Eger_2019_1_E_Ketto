@@ -7,7 +7,7 @@
 - Ne statikus weboldlakat adjunk az ügyfélnek amit nem tud majd módosítani a jövőben és állandóan szól az oldal üzemeltetőjének, hogy még ez a kép kell, szöveg itt nem stimmel vagy a facebook link változott. Ezeket minden meg tudja változtatni az admin menüben.
 
 ## Vágyálom rendszer
-
+Célunk egy dinamikus weboldal létrehozása, egyszerű admin felülettel, így a megrendelő kedvére módosíthatja a linkeket, kategóriákatat hozhat létre, feltöltheti képeit, leírást adhat meg hozzá, a fejlesztő nélkül is. A képeket a felhasználók értékelhetik, írhatnak megjegyzéseket hozzá. Egy reszponzív felületet szeretnénk létrehozni, hogy alkalmazkodjon a különböző platformokról való megtekintéshez. A Szolgáltatások menüpont alatt a jövőben szeretnénk egy heti táblázatot létrehozni amit szintén tudna kezelni a megrendelő és ez alapján az oldal látogatói láthatják majd, hogy van e azon a héten szabad időpont a szalonban. A rólunk menüpont igazából egy leírást tartalmazna a csapatról és a csapat tagjairól. Egy Kapcsolat menüpont ami, mint neve is jelzi a szalon elérhetőségeit fogja tartalmazni.A weboldalon a Kapcsolat oldal tartalmaz egy térképes helymeghatározást, a szalon címe alapján. A képeket kategorizálhatjuk testrészek, illetve az alkotójuk szerint, de ezeket szintén tudja módosítani a megrendelő az admin felületen is.
 ## Funkcionális követelmények
 - Dinamikus portfólió weboldal
 
@@ -22,7 +22,7 @@
 - google fonts használatával.
 
 ## Jelenlegi üzleti folyamatok modellje
-
+- Egy telejesen dinamikus oldalt szeretnénk létrehozni, hogy a megrendelőnek ne kelljen minden apró módosítás miatt a fejlesztőnek szólni, esetlegesen ha nem éppen akkor nem ér rá, akkor ne kelljen várni a munkái publikálásával így, csak akkor keresse őt ha valami hiba van az oldalon. Mindent módosítani tudjon az admin felületen, ahová csak egyedi azonosítóval lehessen belépni, így egyedül a megrendelő tudja majd elérni. Moderálni tudja a képek alatt lévő kommenteket.
 ## Igényelt üzleti folyamatok
 
 ## Követelmény lista
@@ -48,23 +48,24 @@
 ## Riportok
 
 ## Fogalomtár
-
+- Reszponzív felület: optimális megjelenést biztosít - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig).
+- Slideshow: Diavetítés(az oldal látogatója bal/jobb oldalra való kattintással léphet a előző/következő képre).
 ## Képernyő terv
 - Mintának vett design linkje: http://tattoosalon.ancorathemes.com/
 
 ## Funkcionalitás terv
 
- KATEGÓRI 
--     Kategorizálás : lehessen kategóriára szűrni valamint ABC sorrend alapján keresni.
--     Tartalmak megjelnítéséhez két beálítást csatolni ikon megjelnítés vagy lista megjelenités.  
--     Egy oldalon több fájl megjelenítése alap beállitás pl:20 ,de ha szeretnék ezt a darab számot 
-      lehessen növelni pl50,100 db ra így csökkentve az oldalak számát és nővelve az 1 oldalon megjelnített 
+ KATEGÓRIA 
+-     Kategorizálás : lehessen kategóriára szűrni, valamint ABC sorrend alapján keresni.
+-     Tartalmak megjelenítéséhez két beállítást csatolni ikon megjelenítés, vagy lista megjelenítés.  
+-     Egy oldalon több fájl megjelenítése alap beállítás pl:20, de ha szeretnék ezt a darab számot 
+      lehessen növelni pl50, 100 db-ra, így csökkentve az oldalak számát, és növelve az 1 oldalon megjelenített 
       fájlok számát.
 
  KÉPEK
 -     Egy képre kattintva nagyítsa ki az oldal mint például a Facebook.
--     A képeket lehessen értékelni csillag alapján és kommentet is 
-      lehessen hozzá fűzni ha valaki részletesebben szeretné értékelni.     
+-     A képeket lehessen értékelni csillag alapján, és kommentet is 
+      lehessen hozzá fűzni ha valaki részletesebben szeretné kifejteni véleményét.     
 -     Ha a képet megnyitjuk nagy méretben akkor a kép jobb vagy bal oldalára 
       kattintva tudjunk lapozni egy másik képre.
   
