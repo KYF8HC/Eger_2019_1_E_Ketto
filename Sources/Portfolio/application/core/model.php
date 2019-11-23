@@ -2,15 +2,6 @@
 
 class Model {
 
-    public function get_user() {
-        return $this->getRecord("SELECT * FROM `user` WHERE `id` =".$_SESSION['user_id']);
-    }
-    
-    public function get_text() {
-        return $this->getList("SELECT * FROM `text`
-            WHERE `user_id` =".$_SESSION['user_id']);
-    }
-
     public function get_category() {
         return $this->getList("SELECT * FROM `category`");
     }

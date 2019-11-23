@@ -11,8 +11,9 @@
 </head>
 <body>
 
-<div class="container bg-light rounded p-5 my-5">    
-    <h1 class="text-primary mt-5 mx-3">Login</h1>
+<div class="container bg-light rounded p-5 my-5">
+    
+    <h1 class="text-primary mt-5 ml-3">Login</h1>
     <form action="login" method="POST" class="border border-primary rounded p-3">
         <div class="form-group">
             <label for="email">Username or email:</label>
