@@ -25,6 +25,38 @@ INSERT INTO `user` VALUES
 ;
 /* jelszó: asd*/
 
+CREATE TABLE `text` (
+	`id` int AUTO_INCREMENT,
+	`user_id` INT,
+	`name` VARCHAR(20),
+	`title` VARCHAR(50),
+	`paragraf` VARCHAR(255),
+	PRIMARY KEY (`id`),
+    FOREIGN KEY (`user_id`) REFERENCES `user`(`id`)
+);
+
+INSERT INTO `text` VALUES
+	(1, 1, 'index_1', 'Első cím', ''),
+	(2, 1, 'index_2', 'Második cím', ''),
+	(3, 1, 'index_3', 'Harmadik cím', ''),
+	(4, 1, 'index_4', 'Negyedik cím', ''),
+	(5, 1, 'index_5', 'Ötötdik cím', ''),
+	(6, 1, 'index_6', 'Hatodik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(7, 1, 'index_7', 'Hetedik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(8, 1, 'index_8', 'Nyolcadik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(9, 1, 'index_9', 'Kilencedik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(10, 1, 'services_1', 'Első cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(11, 1, 'services_2', 'Második cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(12, 1, 'services_3', 'Harmadik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(13, 1, 'services_4', 'Negyedik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(14, 1, 'services_5', 'Ötödik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(15, 1, 'about_1', 'Első cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(16, 1, 'about_2', 'Második cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(17, 1, 'about_3', 'Harmadik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(18, 1, 'about_4', 'Negyedik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'),
+	(19, 1, 'about_5', 'Ötödik cím', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+;
+
 CREATE TABLE `category` (
     `id` int AUTO_INCREMENT,
     `user_id` int,
@@ -44,15 +76,20 @@ CREATE TABLE `images`(
     `id` int AUTO_INCREMENT,
     `user_id` int,
     `category_id` int,
-    `name` VARCHAR(25),
+    `name` VARCHAR(50),
     `location` VARCHAR(255),
-    `updated_at` DATE,
     `description` VARCHAR(255),
+    `updated_at` DATE,
     PRIMARY KEY (`id`),
     FOREIGN KEY (`user_id`) REFERENCES `user`(`id`),
     FOREIGN KEY (`category_id`) REFERENCES `category`(`id`)
 );
 
-INSERT INTO `images` (`name`, `location`, `updated_at`, `description`, `user_id`, `category_id`) VALUES
-    ('Színes erdő', 'ColorfulForest.jpg', SYSDATE(), 'Erdő', 1, 1) 
+INSERT INTO `images` (`user_id`, `category_id`, `name`, `location`, `description`, `updated_at`) VALUES
+    (1, 1, 'első kép', '1.jpg', '', '2019-11-20'),
+    (1, 1, 'második kép', '2.jpg', '', '2019-11-20'),
+    (1, 1, 'harmadik kép', '3.jpg', '', '2019-11-20'),
+    (1, 1, 'negyedik kép', '4.jpg', '', '2019-11-20'),
+    (1, 1, 'ötödik kép', '5.jpg', '', '2019-11-20'),
+    (1, 1, 'hatodik kép', '6.jpg', '', '2019-11-20')
 ;
