@@ -66,10 +66,8 @@ CREATE TABLE `category` (
 );
 
 INSERT INTO `category`(`name`, `user_id`) VALUES
-	('Természet', 1),
-    ('Állatok', 1),
-    ('Épületek', 1),
-    ('Hétköznapi élet', 1)
+	('Tetoválások', 1),
+    ('Testékszerek', 1),
 ;
 
 CREATE TABLE `images`(

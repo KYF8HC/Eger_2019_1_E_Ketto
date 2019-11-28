@@ -1,7 +1,7 @@
 <?php
 
 // URLs ( '/' -jel ne maradjon le a végéről)
-define('URL', 'http://localhost/portfolio/');
+define('URL', 'http://localhost/Portfolio/');
 
 //define('PROTOCOL', (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https' : 'http');
 //define('PROTOCOL', 'http');
