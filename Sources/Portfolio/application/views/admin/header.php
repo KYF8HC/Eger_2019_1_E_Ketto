@@ -8,6 +8,7 @@
     <!-- Bootstrap, fontawesome, CSS -->
     <link rel="stylesheet" href="<?=URL?>assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=URL?>assets/vendor/fontawesome/css/all.min.css">
+
 </head>
 <body>
 
