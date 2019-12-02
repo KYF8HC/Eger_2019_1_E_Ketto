@@ -1,5 +1,4 @@
     <footer>
-
         <div class="container">
             <div class="col-12">
                 <div class="row">
@@ -53,12 +52,27 @@
                 </div>
             </div>
         </div>
-
-
-        
-
     </footer>
-
+<style>
+    footer{
+        padding: 16px;
+        font-size: 16px;
+        font-family: 'Bebas Neue', cursive; 
+        width: 100%;
+        height: absolute;
+        background: rgb(0,0,0);
+        color: white;
+        position: fixed;
+        bottom: 0px;
+    }
+    footer a{
+        list-style: none;
+        color: white;
+    }
+    footer i{
+        font-family: 'Bebas Neue', cursive; 
+    }
+</style>
 
     <!-- jQuery, Bootstrap, JavaScript -->
     <script src="<?=URL?>assets/vendor/jquery/jquery-3.4.1.min.js"></script>
