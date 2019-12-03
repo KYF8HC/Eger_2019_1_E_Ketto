@@ -1,34 +1,27 @@
 <?php
 class Model {
-
     public function get_user() {
-        return $this->getRecord("SELECT * FROM `user`
-            WHERE `id` =".USER_ID);
+        return $this->getRecord("SELECT * FROM `user` WHERE `id` =".$_SESSION['user_id']);
     }
     
     public function get_text() {
         return $this->getList("SELECT * FROM `text`
-            WHERE `user_id` =".USER_ID);
+            WHERE `user_id` =".$_SESSION['user_id']);
     }
-
     public function get_category() {
-        return $this->getList("SELECT * FROM `category`
-            WHERE `user_id` =".USER_ID);
+        return $this->getList("SELECT * FROM `category`");
     }
-
     public function get_img($category_id = '') {
         if (!empty($category_id))
             return $this->getList("SELECT * FROM `images` WHERE `category_id`='".$category_id."'");
         else
             return $this->getList("SELECT * FROM `images`");
     }
-
     public function getConnection() {
         $connection = new PDO(DB_TYPE.':host='.DB_HOST.';dbname='.DB_NAME.';',DB_USER, DB_PASS);
         $connection->exec("SET NAMES '".DB_CHARSET."'");
         return $connection;
     }
-    
     public function getList($queryString, $queryParams = []) {
         $connection = $this->getConnection();  
         $statement = $connection->prepare($queryString);

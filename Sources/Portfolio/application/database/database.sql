@@ -67,7 +67,7 @@ CREATE TABLE `category` (
 
 INSERT INTO `category`(`name`, `user_id`) VALUES
 	('Tetoválások', 1),
-    ('Testékszerek', 1)
+    ('Testékszerek', 1),
 ;
 
 CREATE TABLE `images`(
