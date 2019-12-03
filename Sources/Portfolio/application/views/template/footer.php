@@ -1,78 +1,60 @@
     <footer>
         <div class="container">
             <div class="col-12">
+            <?php if (!empty($data['user']['facebook'])) : ?>
                 <div class="row">
-                    <div class="col-2" align="right">
-                        <i class="fab fa-facebook-square"></i>
+                    <div class="col-2 text-right">
+                        <i class="fab fa-facebook-square"></i><?=$data['user']['facebook']?>
                     </div>
-                    <div class="col-4" align="left">
+                    <div class="col-4">
                     </div>
                 </div>
+            <?php endif; ?>
                 <div class="row">
-                    <div class="col-2" align="right">
+                    <div class="col-2 text-right">
                         <i class="fas fa-envelope"></i>
                     </div>
-                    <div class="col-4" align="left">
+                    <div class="col-4">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-2" align="right">
+                    <div class="col-2 text-right">
                         <i class="fab fa-twitter"></i>
                     </div>
-                    <div class="col-4" align="left">
+                    <div class="col-4">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-2" align="right">
+                    <div class="col-2 text-right">
                         <i class="fab fa-youtube"></i>
                     </div>
-                    <div class="col-4" align="left">
+                    <div class="col-4">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-2" align="right">
+                    <div class="col-2 text-right">
                         <i class="fab fa-pinterest"></i>
                     </div>
-                    <div class="col-4" align="left">
+                    <div class="col-4">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-2" align="right">
+                    <div class="col-2 text-right">
                         <i class="fab fa-tumblr"></i>
                     </div>
-                    <div class="col-4" align="left">
+                    <div class="col-4">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-2" align="right">
+                    <div class="col-2 text-right">
                         <i class="fab fa-github"></i>
                     </div>
-                    <div class="col-4" align="left">
+                    <div class="col-4">
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-<style>
-    footer{
-        padding: 16px;
-        font-size: 16px;
-        font-family: 'Bebas Neue', cursive; 
-        width: 100%;
-        height: absolute;
-        background: rgb(0,0,0);
-        color: white;
-        position: fixed;
-        bottom: 0px;
-    }
-    footer a{
-        list-style: none;
-        color: white;
-    }
-    footer i{
-        font-family: 'Bebas Neue', cursive; 
-    }
-</style>
 
     <!-- jQuery, Bootstrap, JavaScript -->
     <script src="<?=URL?>assets/vendor/jquery/jquery-3.4.1.min.js"></script>
