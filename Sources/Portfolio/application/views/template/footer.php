@@ -10,48 +10,69 @@
                     </div>
                 </div>
             <?php endif; ?>
+            <?php if (!empty($data['user']['email'])) : ?>
                 <div class="row">
                     <div class="col-2 text-right">
-                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-envelope"></i><?=$data['user']['email']?>
                     </div>
                     <div class="col-4">
                     </div>
                 </div>
+            <?php endif; ?>
+            <?php if (!empty($data['user']['twitter'])) : ?>
                 <div class="row">
                     <div class="col-2 text-right">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter"></i><?=$data['user']['twitter']?>
                     </div>
                     <div class="col-4">
                     </div>
                 </div>
+            <?php endif; ?>
+            <?php if (!empty($data['user']['youtube'])) : ?>
                 <div class="row">
                     <div class="col-2 text-right">
-                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-youtube"></i><?=$data['user']['youtube']?>
                     </div>
                     <div class="col-4">
                     </div>
                 </div>
+            <?php endif; ?>
+            <?php if (!empty($data['user']['pinterest'])) : ?>
                 <div class="row">
                     <div class="col-2 text-right">
-                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-pinterest"></i><?=$data['user']['pinterest']?>
                     </div>
                     <div class="col-4">
                     </div>
                 </div>
+            <?php endif; ?>
+            <?php if (!empty($data['user']['tumblr'])) : ?>
                 <div class="row">
                     <div class="col-2 text-right">
-                        <i class="fab fa-tumblr"></i>
+                        <i class="fab fa-tumblr"></i><?=$data['user']['tumblr']?>
                     </div>
                     <div class="col-4">
                     </div>
                 </div>
+            <?php endif; ?>
+            <?php if (!empty($data['user']['github'])) : ?>
                 <div class="row">
                     <div class="col-2 text-right">
-                        <i class="fab fa-github"></i>
+                        <i class="fab fa-github"></i><?=$data['user']['github']?>
                     </div>
                     <div class="col-4">
                     </div>
                 </div>
+            <?php endif; ?>
+            <?php if (!empty($data['user']['behance'])) : ?>
+                <div class="row">
+                    <div class="col-2 text-right">
+                        <i class="fab fa-behance-square"></i><?=$data['user']['behance']?>
+                    </div>
+                    <div class="col-4">
+                    </div>
+                </div>
+            <?php endif; ?>
             </div>
         </div>
     </footer>
@@ -64,4 +85,3 @@
 
 </body>
 </html>
-
