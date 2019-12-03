@@ -1,4 +1,4 @@
-<div class="content">
+<div class="container">
     <div class="bg1 mar_t_3">
         <div class="row">
             <div class="span10 offset1 mar_t_5 pad_b_6 pad_l_3">
@@ -10,15 +10,22 @@
                         <div class="pull-left address">
                             <p class="p2">8901 Marmora Road, Glasgow, D04 89GR.</p>
                             <p class="mar_null">
-                                <span class="width1">Telephone:</span>+1 800 603 6035<br>
-                                <span class="width1">FAX:</span>+1 800 889 9898<br>
-                                <span>E-mail:</span> <!--email_off--><a href="#" class="a2">mail@demolink.org</a><!--/email_off--><br>
-                            </p>
-                            <p class="p2 mar_t_2">9867 Mill Road, Cambridge, MG09 99HT</p>
-                            <p class="mar_null">
-                                <span class="width1">Telephone:</span>+1 800 603 6035<br>
-                                <span class="width1">FAX:</span>+1 800 889 9898<br>
-                                <span>E-mail:</span> <!--email_off--><a href="#" class="a2">mail@demolink.org</a><!--/email_off--><br>
+                            <?php if (!empty($data['user']['phone'])): ?>  
+                                <span class="width1">Telephone:</span>
+                                <span><?=$data['user']['phone']?></span>
+                            <?php endif; ?>
+                            <?php if (!empty($data['user']['email'])): ?>  
+                                <span class="width1">Email:</span>
+                                <span><?=$data['user']['email']?></span>
+                            <?php endif; ?>
+                            <?php if (!empty($data['user']['facebook'])): ?>  
+                                <span class="width1">facebook:</span>
+                                <span><?=$data['user']['facebook']?></span>
+                            <?php endif; ?>
+                            <?php if (!empty($data['user']['instagram'])): ?>  
+                                <span class="width1">instagram:</span>
+                                <span><?=$data['user']['instagram']?></span>
+                            <?php endif; ?>
                             </p>
                         </div>
                     </div>
