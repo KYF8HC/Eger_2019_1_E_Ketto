@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
 
 
 /* FOOTER */
     footer{
         padding: 16px;
         font-size: 16px;
-        font-family: 'Bebas Neue', cursive; 
+        font-family: 'Alfa Slab One', cursive;
         width: 100%;
         background: rgb(0,0,0);
         color: white;
@@ -15,13 +16,13 @@
         color: white;
     }
     footer i{
-        font-family: 'Bebas Neue', cursive; 
+      font-family: 'Alfa Slab One', cursive; 
     }
 
 /* Probálkozás lapozásra --------------------------------------------*/
 
 html, body {
-    font-family: 'Slabo 27px', serif;
+  font-family: 'Alfa Slab One', cursive;
     padding: 0;
     margin: 0;
     background: #ffffff;

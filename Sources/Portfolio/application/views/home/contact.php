@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="<?=URL?>assets/css/style.css">
+<link rel="stylesheet" href="<?=URL?>assets/css/contact.css">
+
 <div class="container">
     <div class="bg1 mar_t_3">
         <div class="row">
@@ -28,8 +31,29 @@
                             <?php endif; ?>
                             </p>
                         </div>
-                    </div>
+                </div>
             </div>
+        </div>
+        <div class="row">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
         <div class="clear"></div>
     </div>
