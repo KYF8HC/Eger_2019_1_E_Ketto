@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="<?=URL?>assets/css/style.css">
 <link rel="stylesheet" href="<?=URL?>assets/css/contact.css">
+<script src="<?=URL?>assets/js/button.js"></script>
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <div class="container">
     <div class="bg1 mar_t_3">
         <div class="row">

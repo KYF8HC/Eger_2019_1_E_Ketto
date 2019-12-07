@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="<?=URL?>assets/js/button.js"></script>
     <title><?=SITE_NAME?></title>
     <!-- Bootstrap, fontawesome, CSS -->
     <link rel="stylesheet" href="<?=URL?>assets/vendor/bootstrap/css/bootstrap.min.css">
@@ -24,3 +25,4 @@
     <li><span>Image 06</span>
   </ul>
 </div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>

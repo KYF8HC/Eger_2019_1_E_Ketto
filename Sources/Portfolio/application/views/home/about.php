@@ -1,7 +1,9 @@
 <link rel="stylesheet" href="<?=URL?>assets/css/style.css">
 <link rel="stylesheet" href="<?=URL?>assets/css/about.css">
+<script src="<?=URL?>assets/js/button.js"></script>
 
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 <div class="container">
   <div class = "col-12">
   <div class="row">
@@ -50,4 +52,3 @@
      </div>
   </div>
 </div>
-
