@@ -18,7 +18,6 @@
         <div class="container">
             <ul>
                 <li><a href="<?=URL?>">Főoldal</a></li>
-                <li><a href="<?=URL?>services">Szolgáltatások</a></li>
                 <li><a href="<?=URL?>about">Rólunk</a></li>
                 <li><a href="<?=URL?>contact">Kapcsolat</a></li>
                 <li>
