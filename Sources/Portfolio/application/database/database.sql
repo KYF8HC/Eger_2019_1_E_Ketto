@@ -63,11 +63,13 @@ CREATE TABLE `category` (
     `name` VARCHAR(15),
     PRIMARY KEY (`id`),
     FOREIGN KEY (`user_id`) REFERENCES `user`(`id`)
+	
 );
 
 INSERT INTO `category`(`name`, `user_id`) VALUES
 	('Tetoválások', 1),
-    ('Testékszerek', 1),
+    ('Testékszerek', 1)
+
 ;
 
 CREATE TABLE `images`(
