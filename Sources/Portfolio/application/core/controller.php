@@ -15,6 +15,8 @@ class Controller {
         $model = $this->load_model('admin_model');
 
         $data['category'] = $model->get_category();
+        $data['user'] = $model->get_user();
+        $data['text'] = $model->get_text();
         
         require_once 'application/views/template/header.php';
         require_once 'application/views/'.$view.'.php';
