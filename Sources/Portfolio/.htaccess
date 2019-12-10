@@ -2,7 +2,3 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
-
-ErrorDocument 403 application/views/template/error.php
-ErrorDocument 404 application/views/template/error.php
-ErrorDocument 500 application/views/template/error.php
