@@ -1,4 +1,4 @@
-# Funkcionalitás specifikáció
+# Funkcionális specifikáció
 
 ## Áttekintés
 - Portfolóis weboldal egy tetováló művésznek/szalonnak. A tartalom, szövegek, képek egy admin menün keresztül szerkeszthető. A design nélkül implementálható más portfolió oldalakba.
