@@ -6,7 +6,7 @@
 #### Backend munkálatok: Horváth Dániel
  - Feladat: Adatbázis kapcsolat létrehozása, lekérdezések megírása, admin felület
 #### Frontend munkálatok: Didics Patrik, Gulyás Péter, Plávenszki Péter
-- Feladat: Egy letisztul, könnyen kezelhető felhasználói felület létrehozása
+- Feladat: Egy letisztult, könnyen kezelhető felhasználói felület létrehozása
 ### Ütemterv:
 
 |Funkció|Feladat|Prioritás|Becslés|Aktuális becslés|Eltelt idő|Hátralévő idő|
@@ -15,6 +15,10 @@
 |Funkcionális Specifikáció||0|24|20|20|0|
 |Rendszerterv||0|24|24|24|0|
 |Adattárolás|Adatmodell megtervezése|0|2|2|2|0|
+|Admin felület|Backend|1|12|12|12|0|
+||Frontend|2|6|6|6|0|
+|Felhasználói felület|Backend|1|16|16|16|0|
+||Frontend|1|16|16|16|0|
 ## 3. Üzleti folyamat modellje:
 - A modellhez tartozó grafikont csatoljuk a rendszertervet tároló mappához.
 ## 4. Követelmények:
