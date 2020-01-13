@@ -56,6 +56,4 @@ Célunk egy dinamikus weboldal létrehozása, egyszerű admin felülettel, így 
 ## Fogalomtár
 - Reszponzív felület: optimális megjelenést biztosít - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig).
 - Slideshow: Diavetítés(az oldal látogatója bal/jobb oldalra való kattintással léphet a előző/következő képre).
-## Képernyő terv
-- Mintának vett design linkje: http://tattoosalon.ancorathemes.com/
 
