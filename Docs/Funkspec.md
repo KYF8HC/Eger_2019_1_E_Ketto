@@ -6,30 +6,6 @@
 ## Jelenlegi helyzet
 - Ne statikus weboldlakat adjunk az ügyfélnek amit nem tud majd módosítani a jövőben és állandóan szól az oldal üzemeltetőjének, hogy még ez a kép kell, szöveg itt nem stimmel vagy a facebook link változott. Ezeket minden meg tudja változtatni az admin menüben.
 
-## Vágyálom rendszer
-Célunk egy dinamikus weboldal létrehozása, egyszerű admin felülettel, így a megrendelő kedvére módosíthatja a linkeket, kategóriákatat hozhat létre, feltöltheti képeit, leírást adhat meg hozzá, a fejlesztő nélkül is. A képeket a felhasználók értékelhetik, írhatnak megjegyzéseket hozzá, a megrendelő moderálhatja ezeket a megjegyzéseket. Egy reszponzív felületet szeretnénk létrehozni, hogy alkalmazkodjon a különböző platformokról való megtekintéshez. A Szolgáltatások menüpont alatt a jövőben szeretnénk egy heti táblázatot létrehozni amit szintén tudna kezelni a megrendelő és ez alapján az oldal látogatói láthatják majd, hogy van e azon a héten szabad időpont a szalonban. A rólunk menüpont igazából egy leírást tartalmazna a csapatról és a csapat tagjairól. Egy Kapcsolat menüpont ami, mint neve is jelzi a szalon elérhetőségeit fogja tartalmazni.A weboldalon a Kapcsolat oldal tartalmaz egy térképes helymeghatározást, a szalon címe alapján. A galléria tartalmazza az összesképet, választhatunk lista/galléria nézet között. A képeket kategorizálhatjuk testrészek, illetve az alkotójuk szerint, de ezeket szintén tudja módosítani a megrendelő az admin felületen is.
-## Funkcionális követelmények
-- A nyitó oldal egyszerű letisztult megjelenése, átlátható képeket és olvasható szövegeket tartalmaz
-- Minden oldal tetején menüsáv jelenik meg, ami a navigáációt segíti
-- Minden oldal alján a footer jelenik meg ahol a kapcsolat tartáshoz kellő socialmedia linkeket és oldalakat tartalmazza
-- A kapcsolat oldalon az elérhetőségek jelennek meg és üzenet küldési lehetőség egy form segítségével, google térkép is látható
-- A kategóriák füllel a képgaléria nyitható meg és a kategóriának megfelelő képek jelennek meg
-- Admin felület, itt lehet módosítani az oldalon megjelenő tartalmakat
-
-## Rendszerre vonatkozó szabványok
-- PHP nyelven
-- MVC tervezési minta szerint
-- PDO adatbázis kapcsolattal
-- MySQL adatbázishoz
-- Bootstrap
-- jQuery könyvtárak segítségével
-- Fontawesome iconok
-- google fonts használatával.
-
-## Jelenlegi üzleti folyamatok modellje
-- Egy telejesen dinamikus oldalt szeretnénk létrehozni, hogy a megrendelőnek ne kelljen minden apró módosítás miatt a fejlesztőnek szólni, esetlegesen ha nem éppen akkor nem ér rá a fejlesztő, akkor ne kelljen a megrendelőnek a munkái publikálásával várni, és így csak akkor keresse a fejlesztőt ha az karbantartást igényel. Módosítani tudja az admin felületen az elérhetőségeit, képeket tudjon feltölteni, valamint a hozzájuk tartozó információkat megadni, ha egy új tag kerülne a szalonba, őt is bemutatni, illetve az időpont táblázatot is innen fogja elérni. Ide csak egyedi azonosítóval lehessen belépni, így egyedül a megrendelő tudja majd elérni. Ezzel gyorsítjuk a megrendelő munkáját, és csökkentjük a fejlesztőjét.
-## Igényelt üzleti folyamatok
-
 ## Követelmény lista
 
 |modul|név|kifejtés|
@@ -50,11 +26,21 @@ Célunk egy dinamikus weboldal létrehozása, egyszerű admin felülettel, így 
 |Felület|admin menü|semleges oldal, a többi oldalon megjelenő adatokat lehet itt beállítani|
 |Modifikáció|admin menü|adatbázisba frissíti az adatokat|
 
-## Riportok
+## Jelenlegi üzleti folyamatok modellje
+A mai világban rengeteg egyéni vállalkozó, kis cég, üzlet, szabaduszó szeretne portfólió oldalt létrehozni. Amit sűrűn kell frissíteni, új tartalmakkal feltölteni, hogy a lehető legtöbb ügyfélhez elérjenek. Ebben szeretnénk segíteni nekik, hogy ne kelljen minden weboldal szerkesztéshez informatikust hívni és időt és energiát spóroljanak azzal, hogy az admin menüben maguknak szerkeszthetik az oldalukat.
 
-## Fogalomtár
-- Reszponzív felület: optimális megjelenést biztosít - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig).
-- Slideshow: Diavetítés(az oldal látogatója bal/jobb oldalra való kattintással léphet a előző/következő képre).
+## Igényelt üzleti folyamatok modellje
+Azért hogy egyszerűbbé tegyük az egyéni vállalkozók, kis cégek, üzletek, szabadúszók portfóliós weboldal készítését és szerkesztését egy weboldal motort hozunk ,létre ami segítségével ők is bármikor szerkeszthetik a saját portfóliós oldalukat.
+
+## Használati esetek
+- Álltalános felhasználó, megnyitja a portfólió oldalt. A kategóriákban képeket nézeget. A kapcsolat fül alatt elérést talál az oldal üzemeltetőjéhez. Ha meg győzőnek találja az oldal tartalmát valószínűleg felveszi a kapcsolatot az portfolói oldal tulajdonosával és megrendelést ad le.
+- Admin felhasználó, tudja szerkeszteni az oldal tartalmát, hogy mindig napra kész legyen és minnél több ügyfélhez jusson el az ő terméke. Illetve a tartalmak és szövegek hitelesek legyenek a tevékenységi köréhez. Például ha új szolgáltatással bővül a válalkozása.
+
 ## Képernyő terv
 - Mintának vett design linkje: http://tattoosalon.ancorathemes.com/
+
+## Fogalomtár
+- Dinamikus weboldal: Az adatbázisból kiolvasott adatok jelennek meg, ezeket bármikor lehet módosítani és a kinézet ehhez alkalmazkodik
+- Reszponzív felület: optimális megjelenést biztosít - könnyű olvashatóság, egyszerű navigáció a lehető legkevesebb átméretezéssel és görgetéssel - a legkülönfélébb eszközökön (az asztali számítógép monitorjától egészen a mobiltelefonokig).
+- Slideshow: Diavetítés(az oldal látogatója bal/jobb oldalra való kattintással léphet a előző/következő képre).
 
