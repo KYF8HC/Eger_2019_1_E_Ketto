@@ -41,6 +41,8 @@
 
 
 ## Kapcsolat oldal tesztelése
+##### Tesztelő: Horváth Dániel
+##### Dátum: 2020.12.20
 
 ### A google térkép
 - Amit várok: 
