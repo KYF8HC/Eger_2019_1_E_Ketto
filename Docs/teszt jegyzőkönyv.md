@@ -129,3 +129,70 @@ A Submit gombra kattintva hibát dob
 ##### Helyes működés
 
 ### Text settings felület tesztelése
+- Amit csinálok:
+  Bármilyen szöveg van az input mezőkbe írva a **Submit** gombra kattintok
+- Amit várok:
+  Az esetleges változtatásokat elmenti az adatbázisban és ez alapján változik a protfolóliós oldal felülete
+- Ami történik:
+  Ki írja, hogy *Successful saving!*, feltételezem hogy az adatbázisba mentés sikeres. De az admin felületen kívül az oldal felülete    sehol nem változott.
+- Következtetés:
+  Sikeres mentés az adatbázisba, a megjelenést nem ebben a modulban kell javítani
+##### Helyes működés
+
+### Contact settings felület tesztelése
+- Amit csinálok:
+  Bármilyen szöveg van az input mezőkbe írva a **Submit** gombra kattintok
+- Amit várok:
+  Az esetleges változtatásokat elmenti az adatbázisban és ez alapján változik a protfolóliós oldal felülete
+- Ami történik:
+  Ki írja, hogy *Successful saving!*, feltételezem hogy az adatbázisba mentés sikeres. Az portfóliós oldalon a footerben megadott adatok változtak.
+##### Helyes működés
+
+### Gallery settings felület tesztelése
+- Amit csinálok:
+  A **New Category** gombra kattintok
+- Amit várok:
+  Új input mező jelenik meg, ahol megadhatom az új kategória nevét
+- Ami történik:
+  Új input mező jelenik meg, ahol megadhatom az új kategória nevét
+##### Helyes működés
+
+- Amit csinálok:
+  A **Remove** gombra kattintok
+- Amit várok:
+  Eltűnik az adott kategória input mezője és a protfóliós oldalon se lesz látható többé
+- Ami történik:
+  Eltűnik az adott kategória input mezője és a protfóliós oldalon se lesz látható többé. Kiírja felül középre: *Successful removed!*
+##### Helyes működés
+
+- Amit csinálok:
+  A categorys fül alatt a **Submit** gombra kattintok
+- Amit várok:
+  Elmenti a kategóriák változtatásait, akár átnevezés akár új kategória hozzáadása történt
+- Ami történik:
+  Elmenti a kategóriák változtatásait, akár átnevezés akár új kategória hozzáadása történt. Kiírja felül középre: *Successful saving!*
+##### Helyes működés
+
+- Amit csinálok:
+  Az Images fül alatt az egyik **Remove** gombra kattintok
+- Amit várok:
+  Eltűnik az adott kép és az összes input mezője és a protfóliós oldalon se lesz látható többé
+- Ami történik:
+  Eltűnik az adott kép és az összes input mezője és a protfóliós oldalon se lesz látható többé. Kiírja felül középre: *Successful removed!*
+##### Helyes működés
+
+- Amit csinálok:
+  A **New Image** gombra kattintok
+- Amit várok:
+  Új input mezők jelennek meg, ahol megadhatom az új kép adatait
+- Ami történik:
+  Új input mezők jelennek meg, ahol megadhatom az új kép adatait
+##### Helyes működés
+
+- Amit csinálok:
+  A categorys fül alatt a **Submit** gombra kattintok
+- Amit várok:
+  Elmenti a képek változtatásait, akár adatmódosítás akár új kép hozzáadása történt
+- Ami történik:
+  Elmenti a képek változtatásait, akár adatmódosítás akár új kép hozzáadása történt. Kiírja felül középre: *Successful saving!*
+##### Helyes működés
