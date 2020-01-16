@@ -55,22 +55,21 @@ Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítj
 és könnyebb bővítés érdekében
 
 ## 10. Teszterv: 
--Tezterv:
-Fő oldal tesztelése:
-A főoldal gomb tesztelése.
-A rólunk gomb tesztelése.
-A kapcsolat gomb tesztelése.
-A gallery gomb tesztelése.
-A kategória gomb tesztelése.
-Kapcsolat oldal tesztelése:
-A google térkép.
-Üzenj nekünk.
-Admin felület tesztelése:
-Login felület tesztelése.
-Admin felület nevigációs sáv tesztelése.
-Text settings felület tesztelése.
-Contact settings felület tesztelése.
-Gallery settings felület tesztelése.
+- Fő oldal tesztelése:
+- A főoldal gomb tesztelése.
+- A rólunk gomb tesztelése.
+- A kapcsolat gomb tesztelése.
+- A gallery gomb tesztelése.
+- A kategória gomb tesztelése.
+- Kapcsolat oldal tesztelése:
+- A google térkép.
+- Üzenj nekünk.
+- Admin felület tesztelése:
+- Login felület tesztelése.
+- Admin felület nevigációs sáv tesztelése.
+- Text settings felület tesztelése.
+- Contact settings felület tesztelése.
+- Gallery settings felület tesztelése.
 ## 11. Telepítési terv: 
 - Webes alkalmazás, tehát a szoftver webes felületéhez csak egy ajánlott böngésző telepítése
 szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver
