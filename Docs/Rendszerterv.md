@@ -55,16 +55,16 @@ Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítj
 és könnyebb bővítés érdekében
 
 ## 10. Teszterv: 
-- Fő oldal tesztelése:
+# Fő oldal tesztelése:
 - A főoldal gomb tesztelése.
 - A rólunk gomb tesztelése.
 - A kapcsolat gomb tesztelése.
 - A gallery gomb tesztelése.
 - A kategória gomb tesztelése.
-- Kapcsolat oldal tesztelése:
+# Kapcsolat oldal tesztelése:
 - A google térkép.
 - Üzenj nekünk.
-- Admin felület tesztelése:
+# Admin felület tesztelése:
 - Login felület tesztelése.
 - Admin felület nevigációs sáv tesztelése.
 - Text settings felület tesztelése.
