@@ -41,25 +41,39 @@
 ### Fejlesztői eszközök:
 - MySQL Workbench
 - Visual Studio Code
-## 7. Absztark domain modell:
 
-## 8. Architektuális terv: 
+## 7. Architektuális terv: 
 
-## 9. Adatbázis terv: 
+## 8. Adatbázis terv: 
 - Az adatbázis tervhez tartozó grafikont csatoljuk a rendszertervet tároló mappához.
 
-## 10. Implementációs terv:
+## 9. Implementációs terv:
 - Web: 
 A Webes felület főként HTML, CSS, és Javascript nyelven fog készülni.
 Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítjük, és
 úgy fogjuk egymáshoz csatolni a jobb átláthatóság, könnyebb változtathatóság,
 és könnyebb bővítés érdekében
 
-## 11. Teszterv: 
-
-## 12. Telepítési terv: 
+## 10. Teszterv: 
+-Tezterv:
+Fő oldal tesztelése:
+A főoldal gomb tesztelése.
+A rólunk gomb tesztelése.
+A kapcsolat gomb tesztelése.
+A gallery gomb tesztelése.
+A kategória gomb tesztelése.
+Kapcsolat oldal tesztelése:
+A google térkép.
+Üzenj nekünk.
+Admin felület tesztelése:
+Login felület tesztelése.
+Admin felület nevigációs sáv tesztelése.
+Text settings felület tesztelése.
+Contact settings felület tesztelése.
+Gallery settings felület tesztelése.
+## 11. Telepítési terv: 
 - Webes alkalmazás, tehát a szoftver webes felületéhez csak egy ajánlott böngésző telepítése
 szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver
 nem kell hozzá.
 
-## 13. Karbantartási terv:
+## 12. Karbantartási terv:
