@@ -70,6 +70,8 @@ Ezeket a technológiákat amennyire csak lehet külön fájlokba írva készítj
 - Text settings felület tesztelése.
 - Contact settings felület tesztelése.
 - Gallery settings felület tesztelése.
+
+-A tesztelés részletesen megtalálható a DOCS/teszt jegyzőkönyv.md
 ## 11. Telepítési terv: 
 - Webes alkalmazás, tehát a szoftver webes felületéhez csak egy ajánlott böngésző telepítése
 szükséges (Google Chrome, Firefox, Opera, Safari), külön szoftver
